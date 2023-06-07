@@ -24,6 +24,7 @@ def loadData():
     embeddings = OpenAIEmbeddings()
     docsearch = Chroma.from_documents(texts, embeddings, metadatas=[{"source": str(i)} for i in range(len(texts))],persist_directory="./embeddings_db")
     docsearch.persist()
+    return True
 
 if __name__ == "__main__":
     loadData()

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "Galaxy Note30 Ultra",
+    "category": "智能手機"
+  },
+  {
+    "id": "2",
+    "name": "Sony Alpha A7R V",
+    "category": "相機"
+  },
+  {
+    "id": "3",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "category": "筆記本電腦"
+  },
+  {
+    "id": "4",
+    "name": "Nike Air Zoom Pegasus 38",
+    "category": "運動鞋"
+  },
+  {
+    "id": "5",
+    "name": "Amazon Kindle Paperwhite",
+    "category": "電子書閱讀器"
+  },
+  {
+    "id": "6",
+    "name": "Le Creuset Signature 砂鍋",
+    "category": "廚房用具"
+  },
+  {
+    "id": "7",
+    "name": "Fitbit Charge 5",
+    "category": "智能健身追蹤器"
+  },
+  {
+    "id": "8",
+    "name": "Yeti Tundra 65 冷藏箱",
+    "category": "戶外冷藏箱"
+  },
+  {
+    "id": "9",
+    "name": "iPhone 14",
+    "category": "智能手機"
+  },
+  {
+    "id": "10",
+    "name": "iPhone 14 Pro",
+    "category": "智能手機"
+  }
+]
