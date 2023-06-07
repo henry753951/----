@@ -43,6 +43,12 @@ class Products(BaseTool):
         docs = docsearch.similarity_search(query, include_metadata=True, k=1)
         return docs
 
+    def _run(self, product_id: int):
+        # check if product_id is in dir
+        if not os.path.exists(f"products/{product_id}.txt"):
+            return f"找不到{product_id}的商品資訊"
+        with open(f"products/{product_id}.txt", "r",encoding="utf-8") as f:
+            return f.read()
     def _arun(self, radius: int):
         raise NotImplementedError("This tool does not support async")
 
