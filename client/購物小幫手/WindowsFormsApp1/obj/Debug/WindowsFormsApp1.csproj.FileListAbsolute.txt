@@ -3,7 +3,6 @@ F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\bin\Debug\W
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
-F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
@@ -12,3 +11,6 @@ F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\W
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+F:\User\Desktop\視窗專題\client\購物小幫手\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources

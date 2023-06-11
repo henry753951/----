@@ -16,7 +16,7 @@ def loadData():
         os.rmdir("./embeddings_db")
     except:
         pass
-    loader = DirectoryLoader("./products", glob="*.txt")
+    loader = DirectoryLoader("./products", glob="*.txt",show_progress=True)
     documents = loader.load()
     print(f"Load documents done, count: {len(documents)}")
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)

@@ -86,6 +86,7 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -598,6 +599,7 @@
             this.提問.Size = new System.Drawing.Size(788, 61);
             this.提問.TabIndex = 9;
             this.提問.Text = "提問";
+            this.提問.Click += new System.EventHandler(this.提問_Click);
             // 
             // ChatTextBox1
             // 
@@ -623,6 +625,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.guna2Button5);
             this.tabPage5.Controls.Add(this.guna2Button3);
             this.tabPage5.Controls.Add(this.guna2Button4);
             this.tabPage5.Controls.Add(this.guna2Button2);
@@ -684,6 +687,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(147, 45);
             this.guna2Button2.TabIndex = 2;
             this.guna2Button2.Text = "重新建構 embeddings";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -700,6 +704,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(147, 45);
             this.guna2Button1.TabIndex = 1;
             this.guna2Button1.Text = "新增商品";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // listView1
             // 
@@ -817,6 +822,23 @@
             this.tabPage6.Text = "純聊天";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // guna2Button5
+            // 
+            this.guna2Button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.Location = new System.Drawing.Point(638, 419);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.Size = new System.Drawing.Size(147, 45);
+            this.guna2Button5.TabIndex = 6;
+            this.guna2Button5.Text = "刷新";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -920,6 +942,7 @@
         private System.Windows.Forms.ColumnHeader ID;
         private System.Windows.Forms.ColumnHeader 分類;
         private System.Windows.Forms.ColumnHeader 價格;
+        private Guna.UI2.WinForms.Guna2Button guna2Button5;
     }
 }
 

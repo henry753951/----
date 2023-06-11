@@ -1,0 +1,8 @@
+
+Product Name: 測試
+Category: 測試分類
+Price: 100
+
+
+哈囉哈囉這是測試
+

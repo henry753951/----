@@ -115,30 +115,3 @@ class AllProducts(BaseTool):
     
 
 
-llm = ChatOpenAI(
-    model_name="gpt-3.5-turbo",
-    callbacks=[StreamingStdOutCallbackHandler()],
-    streaming=True,
-)
-conversational_memory = ConversationBufferWindowMemory(
-    k=5, return_messages=True, memory_key="chat_history"
-)
-
-
-tools = [GetProduct(),AllProducts()]
-
-
-agent = initialize_agent(
-    agent=AgentType.CHAT_CONVERSATIONAL_REACT_DESCRIPTION,
-    tools=tools,
-    llm=llm,
-    verbose=True,
-    max_iterations=3,
-    early_stopping_method='generate',
-    memory=conversational_memory,
-    handle_parsing_errors="final answer Just return the error message",
-)
-agent.agent.llm_chain.prompt.messages[0].prompt.template = Prompt
-while True:
-    print("")
-    print(str(cc.convert(str(agent.run(input=input())))))
